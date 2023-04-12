@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  /* background-image: url('../public/Background.webp'); */
+  background-color: #fff;
+  /* ajusta el tamaño de la imagen para cubrir todo el fondo */
+  /* evita que la imagen se repita */
+  /* centra la imagen en el fondo */
+}

@@ -1,0 +1,39 @@
+
+
+.dropgroup {
+    background-color: #615e5e;
+}
+
+li>.drop {
+    font-weight: bolder;
+    color: #f0f0f0;
+    transition: background-color .5s;
+}
+
+li>.drop:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+.container-float{
+    position: fixed;
+    top:80%;
+    left: 90%;
+    z-index: 1000;
+}
+
+.Navig {
+    /* outline: 1px solid red; */
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    align-items: center;
+    padding: 2px 2px;
+    transition: all 5s;
+
+}
+
+
+.Navig:hover {
+    filter: brightness(150%);
+}

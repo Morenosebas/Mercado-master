@@ -1,0 +1,133 @@
+.contIndex {
+  cursor: pointer;
+  position: relative;
+  width: 30%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+
+.contIndex:hover {
+  transform: scale(1.01);
+}
+
+.select {
+  position: absolute;
+  width: 100%;
+  left: -12px;
+  height: 100%;
+  color: white;
+  background-color: rgb(172, 17, 17);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2%;
+}
+
+.principal {
+  position: absolute;
+  z-index: -1;
+  display: inline-flex;
+  width: 100%;
+  height: 70%;
+  background-color: #1f1e1e;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid transparent;
+  outline: #000 3px solid;
+  border-radius: 2%;
+  transition: all 1s;
+  justify-content: space-between;
+}
+
+.principal:hover {
+  filter: brightness(1.1);
+  filter: saturate(1.2);
+}
+
+.despl {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.imgContainer {
+  position: relative;
+  height: 100%;
+}
+
+.title {
+  position: relative;
+  margin-top: 100%;
+  color: #fffcfc;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.titleSelect {
+  position: relative;
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.contproducts {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+.exit {
+  position: relative;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(172, 17, 17);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.select:hover {
+  background-color: rgb(255, 4, 4);
+}
+
+.exit:hover {
+  filter: brightness(2.2);
+  filter: saturate(3);
+}
+
+.contproducts::-webkit-scrollbar {
+  width: 2px;
+}
+
+.contproducts::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 15px;
+}
+.contproducts::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.btn-buynow {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-buynow:hover {
+  color: white;
+}

@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Roboto+Mono:wght@300&display=swap');
+
+.profile-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  color: #000000;
+  border-radius: 15px;
+  outline: #333 2px solid;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.profile-info {
+  margin-bottom: 1rem;
+}
+
+.profile-info p {
+  margin: 0;
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.profile-info input {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.profile-buttons button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  transition: all 0.5s;
+}
+
+.profile-buttons button:hover {
+  background-color: #888484;
+  color: #333;
+  cursor: pointer;
+}

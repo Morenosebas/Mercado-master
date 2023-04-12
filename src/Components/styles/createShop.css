@@ -1,0 +1,37 @@
+.newStoreCont {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#formCreateStore {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  border-radius: 5px;
+  background-image: url("../../../public/moto.png");
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: contain;
+  background-position: 120%;
+}
+
+#formCreateStore > div {
+  position: relative;
+  display: inline-flex;
+  width: 50%;
+  flex-direction: column;
+  text-align: center;
+}
+
+#formCreateStore > div > input {
+  height: 30px;
+}
+
+#formCreateStore > div > button {
+  border-radius: 0 0 15px 15px;
+}
