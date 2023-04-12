@@ -1,23 +1,35 @@
+.overr {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
-.overr{
-    max-height: 400px;
-    overflow-y: auto ;
-    overflow-x: hidden;
-}
-.overr::-webkit-scrollbar{
-    width: 15px;
+.overr::-webkit-scrollbar {
+  width: 15px;
 
 }
-.overr::-webkit-scrollbar-track-piece{
-    width: 33px;
+
+.overr::-webkit-scrollbar-track-piece {
+  width: 33px;
 }
+
 .overr::-webkit-scrollbar-thumb {
-    border-radius: 15px;
-    background-color: rgb(255, 255, 255);
-  }
-  .overr::-webkit-scrollbar-track {
-    background-color:  transparent;
-    border-radius: 15px;
-  }
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.overr::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.styleScroll::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: rgb(165, 12, 12);
+}
+.styleScroll::-webkit-scrollbar-track{
+  background-color: transparent;
+  border-radius: 15px;
+}
 
 /* .headerListStore> */
